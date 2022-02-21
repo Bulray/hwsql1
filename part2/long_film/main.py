@@ -2,7 +2,7 @@ import sqlite3
 
 
 def main():
-    con = sqlite3.connect("../netflix.db")
+    con = sqlite3.connect("../../netflix.db")
     cur = con.cursor()
     sqlite_query = "ЗДЕСЬ ДОЛЖЕН БЫТЬ ВАШ ЗАПРОС"
     cur.execute(sqlite_query)
